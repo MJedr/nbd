@@ -7,4 +7,4 @@ var query = db.people.aggregate(
         {$group : { _id : "$credit.currency", meanBalance : {$avg : "$credit.balance"}, sumBalance : {$sum : "$credit.balance"}}}
     ]
   )
-printjson(query).toArray();
+printjson(query.toArray());
