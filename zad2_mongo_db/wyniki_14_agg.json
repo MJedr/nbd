@@ -1,0 +1,849 @@
+MongoDB shell version v4.2.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c77e4436-a7ea-4575-aa8c-f8b981ebfe3b") }
+MongoDB server version: 4.2.6
+{
+	"_batch" : [
+		{
+			"_id" : "Equatorial Guinea",
+			"meanBMI" : 0.0024784158605052225,
+			"maxBMI" : 0.0024784158605052225,
+			"minBMI" : 0.0024784158605052225
+		},
+		{
+			"_id" : "Guinea-Bissau",
+			"meanBMI" : 0.002442720412339051,
+			"maxBMI" : 0.002654403588086242,
+			"minBMI" : 0.0023285128184292064
+		},
+		{
+			"_id" : "Maldives",
+			"meanBMI" : 0.002538987079082935,
+			"maxBMI" : 0.0028258302397598007,
+			"minBMI" : 0.0023654619429922964
+		},
+		{
+			"_id" : "Malaysia",
+			"meanBMI" : 0.0025612388990594757,
+			"maxBMI" : 0.003653428355033911,
+			"minBMI" : 0.001854461856797744
+		},
+		{
+			"_id" : "Sudan",
+			"meanBMI" : 0.0024951753358198898,
+			"maxBMI" : 0.0026388338263210725,
+			"minBMI" : 0.0022771848958184258
+		},
+		{
+			"_id" : "Kyrgyzstan",
+			"meanBMI" : 0.002379456317353873,
+			"maxBMI" : 0.0034055769789718402,
+			"minBMI" : 0.0016846474930530863
+		},
+		{
+			"_id" : "Martinique",
+			"meanBMI" : 0.0024025383631333915,
+			"maxBMI" : 0.0024025383631333915,
+			"minBMI" : 0.0024025383631333915
+		},
+		{
+			"_id" : "Gambia",
+			"meanBMI" : 0.002377340522245323,
+			"maxBMI" : 0.0029041518380755523,
+			"minBMI" : 0.0017840466777748912
+		},
+		{
+			"_id" : "South Africa",
+			"meanBMI" : 0.002586499470004275,
+			"maxBMI" : 0.0040541505141933635,
+			"minBMI" : 0.0017335043301262825
+		},
+		{
+			"_id" : "Russia",
+			"meanBMI" : 0.0025399125306930733,
+			"maxBMI" : 0.003988445766499928,
+			"minBMI" : 0.0017631221751685487
+		},
+		{
+			"_id" : "Luxembourg",
+			"meanBMI" : 0.0026311128380021457,
+			"maxBMI" : 0.0033219351226480157,
+			"minBMI" : 0.001926705786445957
+		},
+		{
+			"_id" : "Afghanistan",
+			"meanBMI" : 0.002504840088025495,
+			"maxBMI" : 0.003168072427781462,
+			"minBMI" : 0.00184302993485763
+		},
+		{
+			"_id" : "Italy",
+			"meanBMI" : 0.0025224448562759802,
+			"maxBMI" : 0.003128284127929142,
+			"minBMI" : 0.001862665699542922
+		},
+		{
+			"_id" : "France",
+			"meanBMI" : 0.002521788101738582,
+			"maxBMI" : 0.004068709814176658,
+			"minBMI" : 0.00176805182946428
+		},
+		{
+			"_id" : "Montenegro",
+			"meanBMI" : 0.002400617071684226,
+			"maxBMI" : 0.0029526909667433993,
+			"minBMI" : 0.0020736590894434217
+		},
+		{
+			"_id" : "United Kingdom",
+			"meanBMI" : 0.0023785736038980996,
+			"maxBMI" : 0.003190315898243853,
+			"minBMI" : 0.0019427928671881646
+		},
+		{
+			"_id" : "Zimbabwe",
+			"meanBMI" : 0.0026975918802407332,
+			"maxBMI" : 0.003512027773402992,
+			"minBMI" : 0.0022609825375832816
+		},
+		{
+			"_id" : "South Sudan",
+			"meanBMI" : 0.0025958795187276634,
+			"maxBMI" : 0.0025958795187276634,
+			"minBMI" : 0.0025958795187276634
+		},
+		{
+			"_id" : "Reunion",
+			"meanBMI" : 0.002642177569784529,
+			"maxBMI" : 0.003916506059010436,
+			"minBMI" : 0.0018728903481758292
+		},
+		{
+			"_id" : "Japan",
+			"meanBMI" : 0.0025288979118123062,
+			"maxBMI" : 0.0037208271542614156,
+			"minBMI" : 0.001890452276508069
+		},
+		{
+			"_id" : "Georgia",
+			"meanBMI" : 0.002432029582441771,
+			"maxBMI" : 0.00276963070482808,
+			"minBMI" : 0.001990778936769029
+		},
+		{
+			"_id" : "Macao",
+			"meanBMI" : 0.0023988477689826943,
+			"maxBMI" : 0.0023988477689826943,
+			"minBMI" : 0.0023988477689826943
+		},
+		{
+			"_id" : "Palau",
+			"meanBMI" : 0.00296190326938685,
+			"maxBMI" : 0.0029999359959047866,
+			"minBMI" : 0.0029238705428689137
+		},
+		{
+			"_id" : "Saudi Arabia",
+			"meanBMI" : 0.0025676484975670657,
+			"maxBMI" : 0.003209538869628018,
+			"minBMI" : 0.0019971991294865286
+		},
+		{
+			"_id" : "Niger",
+			"meanBMI" : 0.0026384679570852143,
+			"maxBMI" : 0.003022683231486928,
+			"minBMI" : 0.0020072042961863817
+		},
+		{
+			"_id" : "Gabon",
+			"meanBMI" : 0.002565753672826553,
+			"maxBMI" : 0.0029048270894929465,
+			"minBMI" : 0.00222668025616016
+		},
+		{
+			"_id" : "Papua New Guinea",
+			"meanBMI" : 0.002421326408700207,
+			"maxBMI" : 0.002690358965091355,
+			"minBMI" : 0.0019859417039821557
+		},
+		{
+			"_id" : "Guinea",
+			"meanBMI" : 0.00279142215967982,
+			"maxBMI" : 0.0034462128538412366,
+			"minBMI" : 0.0020460478773371795
+		},
+		{
+			"_id" : "Mexico",
+			"meanBMI" : 0.002547429001960035,
+			"maxBMI" : 0.0036270875149671798,
+			"minBMI" : 0.0018917857995347576
+		},
+		{
+			"_id" : "Thailand",
+			"meanBMI" : 0.0025689714200817664,
+			"maxBMI" : 0.0035590560182726435,
+			"minBMI" : 0.0018181717342474401
+		},
+		{
+			"_id" : "Ivory Coast",
+			"meanBMI" : 0.0026739162218304365,
+			"maxBMI" : 0.0035265658582249127,
+			"minBMI" : 0.002049720267946944
+		},
+		{
+			"_id" : "Syria",
+			"meanBMI" : 0.0025379241567006585,
+			"maxBMI" : 0.0036401748935686205,
+			"minBMI" : 0.0018668899303500158
+		},
+		{
+			"_id" : "Andorra",
+			"meanBMI" : 0.0028172283654749504,
+			"maxBMI" : 0.0030652080781507387,
+			"minBMI" : 0.0025692486527991625
+		},
+		{
+			"_id" : "Mauritius",
+			"meanBMI" : 0.002549360782117101,
+			"maxBMI" : 0.003886342108446306,
+			"minBMI" : 0.0019225308641975308
+		},
+		{
+			"_id" : "Nicaragua",
+			"meanBMI" : 0.002417094824384103,
+			"maxBMI" : 0.0030037211079338598,
+			"minBMI" : 0.0019775488264201302
+		},
+		{
+			"_id" : "Macedonia",
+			"meanBMI" : 0.0025169543167338254,
+			"maxBMI" : 0.0032525694177860534,
+			"minBMI" : 0.00204950521872469
+		},
+		{
+			"_id" : "Brazil",
+			"meanBMI" : 0.002561810471317871,
+			"maxBMI" : 0.0040629137270681995,
+			"minBMI" : 0.0017455901881799915
+		},
+		{
+			"_id" : "Tuvalu",
+			"meanBMI" : 0.002260418435695907,
+			"maxBMI" : 0.002260418435695907,
+			"minBMI" : 0.002260418435695907
+		},
+		{
+			"_id" : "Rwanda",
+			"meanBMI" : 0.002596047518885389,
+			"maxBMI" : 0.002760395919371098,
+			"minBMI" : 0.0022834957662274153
+		},
+		{
+			"_id" : "Barbados",
+			"meanBMI" : 0.0021343242644513323,
+			"maxBMI" : 0.0021343242644513323,
+			"minBMI" : 0.0021343242644513323
+		},
+		{
+			"_id" : "Micronesia",
+			"meanBMI" : 0.0023307344877130706,
+			"maxBMI" : 0.0025248866566177663,
+			"minBMI" : 0.002048358314807701
+		},
+		{
+			"_id" : "Saint Kitts and Nevis",
+			"meanBMI" : 0.002780112893513996,
+			"maxBMI" : 0.0030062612063272154,
+			"minBMI" : 0.002518137321901941
+		},
+		{
+			"_id" : "Swaziland",
+			"meanBMI" : 0.0020902625563889617,
+			"maxBMI" : 0.0020902625563889617,
+			"minBMI" : 0.0020902625563889617
+		},
+		{
+			"_id" : "Kuwait",
+			"meanBMI" : 0.0025231665011916375,
+			"maxBMI" : 0.002718431873880667,
+			"minBMI" : 0.002243979747671335
+		},
+		{
+			"_id" : "Seychelles",
+			"meanBMI" : 0.0025710551755136726,
+			"maxBMI" : 0.0025710551755136726,
+			"minBMI" : 0.0025710551755136726
+		},
+		{
+			"_id" : "China",
+			"meanBMI" : 0.0025581559894071533,
+			"maxBMI" : 0.0042362284702957675,
+			"minBMI" : 0.001545756779740527
+		},
+		{
+			"_id" : "Democratic Republic of the Congo",
+			"meanBMI" : 0.00265302712054953,
+			"maxBMI" : 0.0033515401571866743,
+			"minBMI" : 0.0018275531401604772
+		},
+		{
+			"_id" : "Tajikistan",
+			"meanBMI" : 0.0024961843320223543,
+			"maxBMI" : 0.0031132650605821127,
+			"minBMI" : 0.0019990278828313506
+		},
+		{
+			"_id" : "Liberia",
+			"meanBMI" : 0.0025901546538832036,
+			"maxBMI" : 0.0029633309101288834,
+			"minBMI" : 0.0022648192657509563
+		},
+		{
+			"_id" : "Turkey",
+			"meanBMI" : 0.002299159106196313,
+			"maxBMI" : 0.0023218818230827426,
+			"minBMI" : 0.002271234002430647
+		},
+		{
+			"_id" : "Nepal",
+			"meanBMI" : 0.002643434938647296,
+			"maxBMI" : 0.003107848971764862,
+			"minBMI" : 0.0019748973244733464
+		},
+		{
+			"_id" : "Azerbaijan",
+			"meanBMI" : 0.0025953521178074686,
+			"maxBMI" : 0.0036933482172005756,
+			"minBMI" : 0.0018770569815679922
+		},
+		{
+			"_id" : "Greece",
+			"meanBMI" : 0.0025757728284442733,
+			"maxBMI" : 0.004152589808442401,
+			"minBMI" : 0.0019126762812266065
+		},
+		{
+			"_id" : "Cambodia",
+			"meanBMI" : 0.0027383971278390953,
+			"maxBMI" : 0.0033328500351027125,
+			"minBMI" : 0.0021873859826171214
+		},
+		{
+			"_id" : "Haiti",
+			"meanBMI" : 0.0026053500838405974,
+			"maxBMI" : 0.003470650592993631,
+			"minBMI" : 0.002195395109695805
+		},
+		{
+			"_id" : "Denmark",
+			"meanBMI" : 0.002357066679447301,
+			"maxBMI" : 0.0027824860598421298,
+			"minBMI" : 0.002108473436367003
+		},
+		{
+			"_id" : "Albania",
+			"meanBMI" : 0.002470893828760488,
+			"maxBMI" : 0.003198582559382973,
+			"minBMI" : 0.0018995343497963386
+		},
+		{
+			"_id" : "Angola",
+			"meanBMI" : 0.002417967562103932,
+			"maxBMI" : 0.0031674804914051647,
+			"minBMI" : 0.001836240074409329
+		},
+		{
+			"_id" : "Costa Rica",
+			"meanBMI" : 0.00246504373372002,
+			"maxBMI" : 0.002889856961379233,
+			"minBMI" : 0.0020494010942211922
+		},
+		{
+			"_id" : "Sri Lanka",
+			"meanBMI" : 0.0024576523965721474,
+			"maxBMI" : 0.0028603619664191674,
+			"minBMI" : 0.002074442158168758
+		},
+		{
+			"_id" : "Germany",
+			"meanBMI" : 0.0024621106995155947,
+			"maxBMI" : 0.0032563931924521764,
+			"minBMI" : 0.001981281881812401
+		},
+		{
+			"_id" : "Burkina Faso",
+			"meanBMI" : 0.0027581473331497785,
+			"maxBMI" : 0.003984736448162323,
+			"minBMI" : 0.001987492441626006
+		},
+		{
+			"_id" : "Puerto Rico",
+			"meanBMI" : 0.002526234968805242,
+			"maxBMI" : 0.0027283415282531925,
+			"minBMI" : 0.0022624807178343222
+		},
+		{
+			"_id" : "Iran",
+			"meanBMI" : 0.0025852744467464764,
+			"maxBMI" : 0.0037980208563155086,
+			"minBMI" : 0.0018237996217377764
+		},
+		{
+			"_id" : "East Timor",
+			"meanBMI" : 0.0025827978752662305,
+			"maxBMI" : 0.00327295665335962,
+			"minBMI" : 0.002152514539442196
+		},
+		{
+			"_id" : "Mali",
+			"meanBMI" : 0.0024919410302759923,
+			"maxBMI" : 0.003167016743066081,
+			"minBMI" : 0.001924668555616468
+		},
+		{
+			"_id" : "Nigeria",
+			"meanBMI" : 0.002480238820301122,
+			"maxBMI" : 0.0036162778871974364,
+			"minBMI" : 0.0016860335772659223
+		},
+		{
+			"_id" : "Paraguay",
+			"meanBMI" : 0.002511890801734547,
+			"maxBMI" : 0.0032977747972845004,
+			"minBMI" : 0.0021194188847738654
+		},
+		{
+			"_id" : "Iraq",
+			"meanBMI" : 0.0024097732336776875,
+			"maxBMI" : 0.0033237988435656017,
+			"minBMI" : 0.0017811382149213076
+		},
+		{
+			"_id" : "Canada",
+			"meanBMI" : 0.0025522904474899475,
+			"maxBMI" : 0.0033613037538372213,
+			"minBMI" : 0.00183379918200126
+		},
+		{
+			"_id" : "Oman",
+			"meanBMI" : 0.0025688221135833004,
+			"maxBMI" : 0.002708402216179085,
+			"minBMI" : 0.0023599509054084227
+		},
+		{
+			"_id" : "Belize",
+			"meanBMI" : 0.0023220039319907463,
+			"maxBMI" : 0.002622341661344843,
+			"minBMI" : 0.0018424047224128545
+		},
+		{
+			"_id" : "Sint Maarten",
+			"meanBMI" : 0.0023160784820344966,
+			"maxBMI" : 0.0024103065474104022,
+			"minBMI" : 0.0022218504166585913
+		},
+		{
+			"_id" : "Western Sahara",
+			"meanBMI" : 0.0022751092261882586,
+			"maxBMI" : 0.0022751092261882586,
+			"minBMI" : 0.0022751092261882586
+		},
+		{
+			"_id" : "Dominica",
+			"meanBMI" : 0.0026421476125521514,
+			"maxBMI" : 0.0026421476125521514,
+			"minBMI" : 0.0026421476125521514
+		},
+		{
+			"_id" : "Guadeloupe",
+			"meanBMI" : 0.0022066287052482925,
+			"maxBMI" : 0.0022066287052482925,
+			"minBMI" : 0.0022066287052482925
+		},
+		{
+			"_id" : "Taiwan",
+			"meanBMI" : 0.002661015347417484,
+			"maxBMI" : 0.003117139169587829,
+			"minBMI" : 0.0020359929764833225
+		},
+		{
+			"_id" : "Ghana",
+			"meanBMI" : 0.0025844519996457063,
+			"maxBMI" : 0.003250433727787583,
+			"minBMI" : 0.0022309636417250766
+		},
+		{
+			"_id" : "Netherlands",
+			"meanBMI" : 0.0026024676559538865,
+			"maxBMI" : 0.0034913790701413395,
+			"minBMI" : 0.0019375149151810973
+		},
+		{
+			"_id" : "Comoros",
+			"meanBMI" : 0.002543904303433795,
+			"maxBMI" : 0.003386465840113391,
+			"minBMI" : 0.001973678859401531
+		},
+		{
+			"_id" : "Armenia",
+			"meanBMI" : 0.0024941789322543042,
+			"maxBMI" : 0.003166851100446302,
+			"minBMI" : 0.001917386933002285
+		},
+		{
+			"_id" : "Israel",
+			"meanBMI" : 0.0025451689665589674,
+			"maxBMI" : 0.003014483568029636,
+			"minBMI" : 0.0021291597916349952
+		},
+		{
+			"_id" : "Morocco",
+			"meanBMI" : 0.002587499924181595,
+			"maxBMI" : 0.0032906040192137876,
+			"minBMI" : 0.0020182304322324796
+		},
+		{
+			"_id" : "Australia",
+			"meanBMI" : 0.0025195047158310074,
+			"maxBMI" : 0.002982455599343255,
+			"minBMI" : 0.002065310909810227
+		},
+		{
+			"_id" : "Mongolia",
+			"meanBMI" : 0.002402853800304413,
+			"maxBMI" : 0.003147600262984878,
+			"minBMI" : 0.0019123348100503089
+		},
+		{
+			"_id" : "Northern Mariana Islands",
+			"meanBMI" : 0.002591232061098385,
+			"maxBMI" : 0.002591232061098385,
+			"minBMI" : 0.002591232061098385
+		},
+		{
+			"_id" : "Belarus",
+			"meanBMI" : 0.0025469679075687006,
+			"maxBMI" : 0.0033938647320174813,
+			"minBMI" : 0.0017862911074560455
+		},
+		{
+			"_id" : "Spain",
+			"meanBMI" : 0.002617217439296113,
+			"maxBMI" : 0.0034935660206343094,
+			"minBMI" : 0.002171883995935713
+		},
+		{
+			"_id" : "New Zealand",
+			"meanBMI" : 0.002535979414491938,
+			"maxBMI" : 0.003370893869077877,
+			"minBMI" : 0.00200150377965085
+		},
+		{
+			"_id" : "Myanmar",
+			"meanBMI" : 0.0025964386191009896,
+			"maxBMI" : 0.0031448459395139452,
+			"minBMI" : 0.0020997436608396394
+		},
+		{
+			"_id" : "Brunei",
+			"meanBMI" : 0.002502697259105827,
+			"maxBMI" : 0.002502697259105827,
+			"minBMI" : 0.002502697259105827
+		},
+		{
+			"_id" : "Tonga",
+			"meanBMI" : 0.00238293086776095,
+			"maxBMI" : 0.00238293086776095,
+			"minBMI" : 0.00238293086776095
+		},
+		{
+			"_id" : "Ukraine",
+			"meanBMI" : 0.0025206155364019796,
+			"maxBMI" : 0.0036842227563723636,
+			"minBMI" : 0.0017021559565054984
+		},
+		{
+			"_id" : "Libya",
+			"meanBMI" : 0.0027274094200472675,
+			"maxBMI" : 0.003514959498858504,
+			"minBMI" : 0.0021427423728295793
+		},
+		{
+			"_id" : "Cameroon",
+			"meanBMI" : 0.0024636695335422303,
+			"maxBMI" : 0.003317153919692311,
+			"minBMI" : 0.001968164695338018
+		},
+		{
+			"_id" : "Nauru",
+			"meanBMI" : 0.002291236113053845,
+			"maxBMI" : 0.002291236113053845,
+			"minBMI" : 0.002291236113053845
+		},
+		{
+			"_id" : "Central African Republic",
+			"meanBMI" : 0.0023916787330266966,
+			"maxBMI" : 0.002895456123722056,
+			"minBMI" : 0.001961489940198228
+		},
+		{
+			"_id" : "Saint Lucia",
+			"meanBMI" : 0.002300790051320357,
+			"maxBMI" : 0.002757036153167093,
+			"minBMI" : 0.0020263359356035605
+		},
+		{
+			"_id" : "Switzerland",
+			"meanBMI" : 0.002570946937867775,
+			"maxBMI" : 0.0031153535521833073,
+			"minBMI" : 0.0020192102704387426
+		},
+		{
+			"_id" : "Slovenia",
+			"meanBMI" : 0.0025209879661256753,
+			"maxBMI" : 0.0032661098753994497,
+			"minBMI" : 0.0017370385779694156
+		},
+		{
+			"_id" : "Peru",
+			"meanBMI" : 0.0025272645576622115,
+			"maxBMI" : 0.003636334544992971,
+			"minBMI" : 0.001780600236198692
+		}
+	],
+	"_useReadCommands" : true,
+	"_cursorid" : NumberLong("2815084294019479642"),
+	"_batchSize" : undefined,
+	"_maxAwaitTimeMS" : undefined,
+	"_txnNumber" : undefined,
+	"_ns" : "nbd.people",
+	"_db" : nbd,
+	"_collName" : "people",
+	"_cursorHandle" : {
+		
+	},
+	"isClosed" : function() {
+    if (this._useReadCommands) {
+        return bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) === 0;
+    }
+    return this._cursor.isClosed();
+},
+	"isExhausted" : function() {
+    return this.isClosed() && this.objsLeftInBatch() === 0;
+},
+	"close" : function() {
+    if (!this._useReadCommands) {
+        this._cursor.close();
+    } else if (bsonWoCompare({_: this._cursorid}, {_: NumberLong(0)}) !== 0) {
+        var killCursorCmd = {
+            killCursors: this._collName,
+            cursors: [this._cursorid],
+        };
+        var cmdRes = this._db.runCommand(killCursorCmd);
+        if (cmdRes.ok != 1) {
+            throw _getErrorWithCode(cmdRes, "killCursors command failed: " + tojson(cmdRes));
+        }
+
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong(0);
+    }
+},
+	"_updatePostBatchResumeToken" : function(cursorObj) {
+    if (cursorObj.postBatchResumeToken) {
+        this._postBatchResumeToken = cursorObj.postBatchResumeToken;
+        if ((cursorObj.firstBatch || cursorObj.nextBatch).length === 0) {
+            this._resumeToken = this._postBatchResumeToken;
+        }
+        this._isChangeStream = true;
+    }
+},
+	"_runGetMoreCommand" : function() {
+    // Construct the getMore command.
+    var getMoreCmd = {getMore: this._cursorid, collection: this._collName};
+
+    if (this._batchSize) {
+        getMoreCmd["batchSize"] = this._batchSize;
+    }
+
+    // maxAwaitTimeMS is only supported when using read commands.
+    if (this._maxAwaitTimeMS) {
+        getMoreCmd.maxTimeMS = this._maxAwaitTimeMS;
+    }
+
+    if (this._txnNumber) {
+        getMoreCmd.txnNumber = NumberLong(this._txnNumber);
+        getMoreCmd.autocommit = false;
+    }
+
+    // Deliver the getMore command, and check for errors in the response.
+    var cmdRes = this._db.runCommand(getMoreCmd);
+    assert.commandWorked(cmdRes, () => "getMore command failed: " + tojson(cmdRes));
+
+    if (this._ns !== cmdRes.cursor.ns) {
+        throw Error("unexpected collection in getMore response: " + this._ns +
+                    " != " + cmdRes.cursor.ns);
+    }
+
+    if (!cmdRes.cursor.id.compare(NumberLong("0"))) {
+        this._cursorHandle.zeroCursorId();
+        this._cursorid = NumberLong("0");
+    } else if (this._cursorid.compare(cmdRes.cursor.id)) {
+        throw Error("unexpected cursor id: " + this._cursorid.toString() +
+                    " != " + cmdRes.cursor.id.toString());
+    }
+
+    // If the command result represents a change stream cursor, update our postBatchResumeToken.
+    this._updatePostBatchResumeToken(cmdRes.cursor);
+
+    // Successfully retrieved the next batch.
+    this._batch = cmdRes.cursor.nextBatch.reverse();
+},
+	"_hasNextUsingCommands" : function() {
+    assert(this._useReadCommands);
+
+    if (!this._batch.length) {
+        if (!this._cursorid.compare(NumberLong("0"))) {
+            return false;
+        }
+
+        this._runGetMoreCommand();
+    }
+
+    return this._batch.length > 0;
+},
+	"hasNext" : function() {
+    if (this._useReadCommands) {
+        return this._hasNextUsingCommands();
+    }
+
+    return this._batch.length || this._cursor.hasNext();
+},
+	"next" : function() {
+    if (this._batch.length) {
+        // Pop the next result off the batch.
+        const nextDoc = this._batch.pop();
+        if (this._isChangeStream) {
+            // If this is the last result in the batch, the postBatchResumeToken becomes the current
+            // resume token for the cursor. Otherwise, the resume token is the _id of 'nextDoc'.
+            this._resumeToken = (this._batch.length ? nextDoc._id : this._postBatchResumeToken);
+        }
+        return nextDoc;
+    } else if (this._useReadCommands) {
+        // Have to call hasNext() here, as this is where we may issue a getMore in order to retrieve
+        // the next batch of results.
+        if (!this.hasNext())
+            throw Error("error hasNext: false");
+        return this._batch.pop();
+    } else {
+        if (!this._cursor.hasNext())
+            throw Error("error hasNext: false");
+
+        var ret = this._cursor.next();
+        if (ret.$err)
+            throw _getErrorWithCode(ret, "error: " + tojson(ret));
+        return ret;
+    }
+},
+	"objsLeftInBatch" : function() {
+    if (this._useReadCommands) {
+        return this._batch.length;
+    } else if (this._batch.length) {
+        return this._batch.length;
+    } else {
+        return this._cursor.objsLeftInBatch();
+    }
+},
+	"getResumeToken" : function() {
+    // Return the most recent recorded resume token, if such a token exists.
+    return this._resumeToken;
+},
+	"help" : function() {
+    // This is the same as the "Cursor Methods" section of DBQuery.help().
+    print("\nCursor methods");
+    print("\t.toArray() - iterates through docs and returns an array of the results");
+    print("\t.forEach( func )");
+    print("\t.map( func )");
+    print("\t.hasNext()");
+    print("\t.next()");
+    print(
+        "\t.objsLeftInBatch() - returns count of docs left in current batch (when exhausted, a new getMore will be issued)");
+    print("\t.itcount() - iterates through documents and counts them");
+    print(
+        "\t.getResumeToken() - for a change stream cursor, obtains the most recent valid resume token, if it exists.");
+    print("\t.pretty() - pretty print each document, possibly over multiple lines");
+    print("\t.close()");
+},
+	"toArray" : function() {
+    if (this._arr)
+        return this._arr;
+
+    var a = [];
+    while (this.hasNext())
+        a.push(this.next());
+    this._arr = a;
+    return a;
+},
+	"forEach" : function(func) {
+    while (this.hasNext())
+        func(this.next());
+},
+	"map" : function(func) {
+    var a = [];
+    while (this.hasNext())
+        a.push(func(this.next()));
+    return a;
+},
+	"itcount" : function() {
+    var num = 0;
+
+    // Track how many bytes we've used this cursor to iterate iterated.  This function can be called
+    // with some very large cursors.  SpiderMonkey appears happy to allow these objects to
+    // accumulate, so regular gc() avoids an overly large memory footprint.
+    //
+    // TODO: migrate this function into c++
+    var bytesSinceGC = 0;
+
+    while (this.hasNext()) {
+        num++;
+        var nextDoc = this.next();
+        bytesSinceGC += Object.bsonsize(nextDoc);
+
+        // Garbage collect every 10 MB.
+        if (bytesSinceGC > (10 * 1024 * 1024)) {
+            bytesSinceGC = 0;
+            gc();
+        }
+    }
+    return num;
+},
+	"shellPrint" : function() {
+    try {
+        var start = new Date().getTime();
+        var n = 0;
+        while (this.hasNext() && n < DBQuery.shellBatchSize) {
+            var s = this._prettyShell ? tojson(this.next()) : tojson(this.next(), "", true);
+            print(s);
+            n++;
+        }
+        if (typeof _verboseShell !== 'undefined' && _verboseShell) {
+            var time = new Date().getTime() - start;
+            print("Fetched " + n + " record(s) in " + time + "ms");
+        }
+        if (this.hasNext()) {
+            print("Type \"it\" for more");
+            ___it___ = this;
+        } else {
+            ___it___ = null;
+        }
+    } catch (e) {
+        print(e);
+    }
+},
+	"pretty" : function() {
+    this._prettyShell = true;
+    return this;
+}
+}
+2020-06-07T20:37:49.303+0200 E  QUERY    [js] uncaught exception: TypeError: printjson(...) is undefined :
+@(shell):1:1
+bye

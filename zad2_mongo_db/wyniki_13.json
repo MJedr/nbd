@@ -1,0 +1,83 @@
+MongoDB shell version v4.2.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("5f4185f6-6489-4c99-afd3-78e7077c9808") }
+MongoDB server version: 4.2.6
+{
+	"result" : "map_reduce_jobs",
+	"timeMillis" : 201,
+	"counts" : {
+		"input" : 9878,
+		"emit" : 9878,
+		"reduce" : 99,
+		"output" : 1
+	},
+	"ok" : 1
+}
+[
+	{
+		"_id" : "jobArray",
+		"value" : {
+			"unique_jobs" : [
+				"Paralegal",
+				"Data Coordiator",
+				"Sales Representative",
+				"Payment Adjustment Coordinator",
+				"Human Resources Assistant II",
+				"Geologist IV",
+				"Recruiting Manager",
+				"Research Associate",
+				"Analog Circuit Design manager",
+				"Assistant Media Planner",
+				"Business Systems Development Analyst",
+				"Associate Professor",
+				"Accounting Assistant I",
+				"Electrical Engineer",
+				"Nuclear Power Engineer",
+				"GIS Technical Architect",
+				"Staff Accountant I",
+				"Account Coordinator",
+				"VP Sales",
+				"Assistant Manager",
+				"Database Administrator III",
+				"Community Outreach Specialist",
+				"Staff Accountant III",
+				"Senior Cost Accountant",
+				"Engineer IV",
+				"Recruiter",
+				"Assistant Professor",
+				"Editor",
+				"Research Nurse",
+				"Engineer III",
+				"Environmental Tech",
+				"Marketing Assistant",
+				"Product Engineer",
+				"Administrative Assistant IV",
+				"Civil Engineer",
+				"Structural Analysis Engineer",
+				"Administrative Officer",
+				"Biostatistician IV",
+				"Cost Accountant",
+				"VP Quality Control",
+				"Developer IV",
+				"Accounting Assistant II",
+				"Staff Scientist",
+				"Project Manager",
+				"VP Accounting",
+				"Executive Secretary",
+				"Automation Specialist I",
+				"Internal Auditor",
+				"Speech Pathologist",
+				"Software Consultant",
+				"General Manager",
+				"Librarian",
+				"Teacher",
+				"Web Designer II",
+				"Administrative Assistant II",
+				"Engineer I",
+				"Media Manager IV",
+				"Nurse",
+				"Software Engineer"
+			]
+		}
+	}
+]

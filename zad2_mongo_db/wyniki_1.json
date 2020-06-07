@@ -1,0 +1,33 @@
+MongoDB shell version v4.2.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("23f3095b-a86d-4f55-891c-711e75eec2be") }
+MongoDB server version: 4.2.6
+{
+	"_id" : ObjectId("5edd136021ff83da26a0f999"),
+	"sex" : "Male",
+	"first_name" : "Wayne",
+	"last_name" : "Fields",
+	"job" : "Speech Pathologist",
+	"email" : "wfields0@diigo.com",
+	"location" : {
+		"city" : "Oyo",
+		"address" : {
+			"streetname" : "Beilfuss",
+			"streetnumber" : "860"
+		}
+	},
+	"description" : "vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
+	"height" : 152.38,
+	"weight" : 66.81,
+	"birth_date" : ISODate("1990-02-21T02:55:03Z"),
+	"nationality" : "Nigeria",
+	"credit" : [
+		{
+			"type" : "switch",
+			"number" : "6759888939100098699",
+			"currency" : "COP",
+			"balance" : 5117.06
+		}
+	]
+}
+bye
