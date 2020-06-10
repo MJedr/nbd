@@ -1,0 +1,10 @@
+[ec2-user@ip-172-31-20-200 ~]$ curl -i -XPOST -H "Content-Type:application/json" -d '{"name":"Lithuania"}' http://172.31.20.200:8098:098/buckets/s20836/keys
+curl: (3) Port number ended with ':'
+[ec2-user@ip-172-31-20-200 ~]$ curl -i -XPOST -H "Content-Type:application/json" -d '{"name":"Lithuania"}' http://172.31.20.200:8098/buckets/s20836/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s20836/keys/RZ2ZZ5OGqUkIa96YHUzXbXEfJmn
+Date: Wed, 10 Jun 2020 20:46:48 GMT
+Content-Type: application/json
+Content-Length: 0

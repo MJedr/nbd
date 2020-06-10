@@ -1,0 +1,13 @@
+[ec2-user@ip-172-31-20-200 ~]$ curl -i http://172.31.20.200:8098/buckets/s20836/keys/France
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8BVvkDlnci3jOwKAumMGUyJjHyiB1MPQGXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s20836>; rel="up"
+Last-Modified: Wed, 10 Jun 2020 20:39:54 GMT
+ETag: "3InQYR0ZTB8G7XV4aknG5U"
+Date: Wed, 10 Jun 2020 20:42:27 GMT
+Content-Type: application/json
+Content-Length: 81
+
+{"name": "France", "capital": "Paris", "population": 66990000, "surface": 643801}[ec2-user@ip-172-31-20-200 ~]

@@ -1,0 +1,3 @@
+*.pem
+/brudnopis
+.DS_Store

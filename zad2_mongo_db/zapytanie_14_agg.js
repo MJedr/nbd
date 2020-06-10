@@ -6,3 +6,4 @@ var query = db.people.aggregate([{'$match':{ 'height':{'$exists':true}, 'weight'
                         {$group : { _id : "$nationality", meanBMI : {"$avg" : "$bmi"}, maxBMI : {"$max" : "$bmi"}, minBMI : { $min : "$bmi"}}} 
 ])     
 printjson(query.toArray());
+

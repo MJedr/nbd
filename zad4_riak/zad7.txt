@@ -1,0 +1,8 @@
+[ec2-user@ip-172-31-20-200 ~]$ curl -i http://172.31.20.200:8098/buckets/s20836/keys/Slovakia
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 10 Jun 2020 20:46:16 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

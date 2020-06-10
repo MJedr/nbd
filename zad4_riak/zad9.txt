@@ -1,0 +1,11 @@
+[ec2-user@ip-172-31-20-200 ~]$ curl -i http://172.31.20.200:8098/buckets/s20836/keys/RZ2ZZ5OGqUkIa96YHUzXbXEfJmn
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8BVvkDlnciwtkYFAXymBKZMxjZdhxKPQGXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s20836>; rel="up"
+Last-Modified: Wed, 10 Jun 2020 20:46:48 GMT
+ETag: "LKQ9d4JplWrnymcP8LnZ5"
+Date: Wed, 10 Jun 2020 20:47:42 GMT
+Content-Type: application/json
+Content-Length: 20

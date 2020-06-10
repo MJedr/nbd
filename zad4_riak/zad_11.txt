@@ -1,0 +1,7 @@
+[ec2-user@ip-172-31-20-200 ~]$ python program.py 
+*****created document******
+{'sample_name': 'sample_name', 'sample_surname': 'sample_surname'}
+*****updated document******
+{'sample_name': 'new_sample_val', 'sample_surname': 'sample_surname'}
+*****deleted document******
+None

@@ -1,0 +1,37 @@
+1
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Poland", "capital": "Warsaw", "population": 38000000, "surface": 312696}' http://172.31.20.200:8098/buckets/s20836/keys/Poland
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "France", "capital": "Paris", "population": 66990000, "surface": 643801}' http://172.31.20.200:8098/buckets/s20836/keys/France
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Switzerland", "capital": "Brno", "population": 8526932, "surface": 41285 }' http://172.31.20.200:8098/buckets/s20836/keys/Switzerland
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Italy", "capital": "Rome", "population": 60283000, "surface": 302072}' http://172.31.20.200:8098/buckets/s20836/keys/Italy
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Spain", "capital": "Madrid", "population": 47100000, "surface": 505944}' http://172.31.20.200:8098/buckets/s20836/keys/Spain
+
+2.
+curl -i http://172.31.20.200:8098/buckets/s20836/keys/France
+
+3.
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Switzerland", "capital": "Brno", "population": 8526932, "surface": 41285, language: "German" }' http://172.31.20.200:8098/buckets/s20836/keys/Switzerland
+
+4.
+curl -i -XPUT -H "Content-Type:application/json" -d {"name": "Switzerland", "capital": "Brno", "population": 8526932, "surface": 41285 }' http://172.31.20.200:8098/buckets/s20836/keys/Switzerland
+
+5.
+curl -i -XPUT -H "Content-Type:application/json" -d '{"name": "Switzerland", "capital": "Bern", "population": 8526932, "surface": 41285 }' http://172.31.20.200:8098/buckets/s20836/keys/Switzerland
+
+6.
+curl -i -XDELETE http://172.31.20.200:8098/buckets/s20836/keys/Spain    
+
+7.
+curl -i http://172.31.20.200:8098/buckets/s20836/keys/Slovakia
+
+8.
+curl -i -XPOST -H "Content-Type:application/json" -d '{"name":"Lithuania"}' http://172.31.20.200:8098:098/buckets/s20836/keys
+
+9.
+curl -i http://172.31.20.200:8098/buckets/s20836/keys/RZ2ZZ5OGqUkIa96YHUzXbXEfJmn
+
+10.
+curl -i -XDELETE http://172.31.20.200:8098/buckets/s20836/keys/RZ2ZZ5OGqUkIa96YHUzXbXEfJmn
