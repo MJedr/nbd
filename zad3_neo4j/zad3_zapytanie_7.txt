@@ -1,0 +1,8 @@
+// Uszereguj linie lotnicze według ilości miast, pomiędzy którymi 
+// oferują połączenia (unikalnych miast biorących udział w relacjach :ORIGIN i :DESTINATION 
+// węzłów typu Flight obsługiwanych przez daną linię) 
+
+
+MATCH airport=(airportStop:Airport)<-[priceFlight:PRICE_FLIGHT]-(airportStart:Airport) 
+WITH priceFlight, airportStop.name + airportStart.name as name
+RETURN priceFlight.airline as flight,  count(DISTINCT name) AS number ORDER BY number DESC

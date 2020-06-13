@@ -1,0 +1,4 @@
+// Znajdź wszystkie trasy dostępne latem, którymi można 
+// poruszać się przy pomocy roweru (twowheeler) z Darjeeling 
+
+MATCH (start:town{name: "Darjeeling"})-[path:twowheeler]->(locations) WHERE path.summer="true" RETURN path

@@ -1,0 +1,8 @@
+// Znajdź mające najmniej etapów trasy którymi można dostać się
+// z Darjeeling na Sandakphu i które mogą być wykorzystywane zimą
+
+MATCH (start:town { name:"Darjeeling" }),(stop:peak { name:"Sandakphu" })
+WITH start,stop
+MATCH path = ShortestPath((start)-[*..5]-(stop))
+WHERE ALL (path IN relationships(path) WHERE path.winter="true")
+RETURN path

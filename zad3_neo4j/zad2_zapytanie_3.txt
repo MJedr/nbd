@@ -1,0 +1,6 @@
+// Znajdź trasy którymi można dostać się z Darjeeling na Sandakphu, mające najmniejszą ilość etapów
+
+MATCH (start:town { name:"Darjeeling" }),(stop:peak { name:"Sandakphu" })
+WITH start,stop
+MATCH path = ShortestPath((start)-[*..5]-(stop))
+RETURN path

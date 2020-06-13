@@ -1,0 +1,2 @@
+// Listę osób, które napisały scenariusz filmu, które wyreżyserowały wraz z tytułami takich filmów (koniunkcja – ten sam autor scenariusza i reżyser) 
+MATCH (people:Person)-[:WROTE]->(m)<-[:DIRECTED]-(people:Person) RETURN people AS osoba, m AS film

@@ -1,0 +1,10 @@
+﻿p.name,type(relatedTo),relatedTo
+Sebastian Stan,ACTED_IN,"{roles:[James Buchanan ""Bucky"" Barnes]}"
+Hayley Atwell,ACTED_IN,{roles:[Peggy Carter]}
+Chris Evans,ACTED_IN,{roles:[Capitan America / Steve Rogers]}
+Hugo Weaving,ACTED_IN,{roles:[Johann Schmidt/Red Skull]}
+Dominic Cooper,ACTED_IN,{roles:[Howard Stark]}
+Joe Johnston,DIRECTED,{}
+Stephen McFeely,WROTE,{}
+Tommy Lee Jones,ACTED_IN,{roles:[Colonel Chester Phillips]}
+Christopher Markus,WROTE,{}

@@ -1,0 +1,7 @@
+// Znajdź wszystkie porty lotnicze, do których da się dolecieć 
+// (bezpośrednio lub z przesiadkami) z Los Angeles (LAX) wydając mniej niż 3000  
+
+MATCH airport=(airportStop:Airport)<-[priceFlight:PRICE_FLIGHT*1..3]-(airportStart:Airport {name: "LAX"}), ()-[origin:ORIGIN]->(airportStart:Airport ) WITH airport,airportStop, 
+reduce(totalCost=0, rel IN relationships(airport)|totalCost + rel.price) as cost 
+WHERE cost < 3000  
+RETURN DISTINCT airportStop

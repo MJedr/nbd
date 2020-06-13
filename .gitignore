@@ -1,3 +1,5 @@
 *.pem
 /brudnopis
 .DS_Store
+/cypher
+*.zip

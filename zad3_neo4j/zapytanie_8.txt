@@ -1,0 +1,28 @@
+// Zestaw zapytań powodujących uzupełnienie bazy danych o film 
+// Captain America: The First Avenger wraz z uzupełnieniem informacji 
+// o reżyserze, scenarzystach i odtwórcach głównych ról 
+
+CREATE (capitanAvengerM:Movie {title: 'Captain America: The First Avenger',
+                              released: 2011,
+                              tagline: 'When patriots become heroes'})
+
+CREATE (chris:Person {name:'Chris Evans', born:1981})
+CREATE (hayley:Person {name:'Hayley Atwell', born:1982})
+CREATE (sebastian:Person {name:'Sebastian Stan', born:1982})
+CREATE (tommy:Person {name:'Tommy Lee Jones', born:1946})
+CREATE (dominic:Person {name:'Dominic Cooper', born:1978})
+CREATE (joe:Person {name:'Joe Johnston', born:1950})
+CREATE (markus:Person {name:'Christopher Markus', born:1965})
+CREATE (stephen:Person {name:'Stephen McFeely', born:1952})
+CREATE
+  (chris)-[:ACTED_IN {roles:['Capitan America / Steve Rogers']}]->(capitanAvengerM),
+  (hayley)-[:ACTED_IN {roles:['Peggy Carter']}]->(capitanAvengerM),
+  (sebastian)-[:ACTED_IN {roles:['James Buchanan "Bucky" Barnes']}]->(capitanAvengerM),
+  (tommy)-[:ACTED_IN {roles:['Colonel Chester Phillips']}]->(capitanAvengerM),
+  (dominic)-[:ACTED_IN {roles:['Howard Stark']}]->(capitanAvengerM),
+  (Hugo)-[:ACTED_IN {roles:['Johann Schmidt/Red Skull']}]->(capitanAvengerM),
+  (joe)-[:DIRECTED]->(capitanAvengerM),
+  (markus)-[:WROTE]->(capitanAvengerM),
+  (stephen)-[:WROTE]->(capitanAvengerM)
+
+MATCH (people: Person)-[r]-(capitanMovie: Movie{title: "Capitan America:The First Avenger"}) RETURN people, r, type(r)

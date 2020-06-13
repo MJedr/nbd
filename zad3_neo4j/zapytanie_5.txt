@@ -1,0 +1,2 @@
+// Listę aktorów (aktor = osoba, która grała przynajmniej w jednym filmie) wraz z ilością filmów, w których grali 
+MATCH (people:Person)-[:ACTED_IN]->(m) RETURN DISTINCT people.name AS imiona, count(m) AS liczba_filmow

@@ -1,0 +1,4 @@
+// Znajdź wszystkie trasy którymi można dostać się z Darjeeling na Sandakphu
+
+// Liczba 17 podyktowana jest wydajnością komputera
+MATCH (start:town {name:"Darjeeling"})-[*1..17]-(Sandakphu) RETURN DISTINCT Sandakphu

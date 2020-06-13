@@ -1,0 +1,2 @@
+// Wszystkie osoby, z którymi Hugo Weaving grał w tych samych filmach
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors) RETURN coActors

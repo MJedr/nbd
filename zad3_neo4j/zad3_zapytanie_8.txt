@@ -1,0 +1,7 @@
+// Znajdź najtańszą trasę łączącą 3 różne porty lotnicze
+
+MATCH airports=(airportStop:Airport)<-[:PRICE_FLIGHT]-(airportStart:Airport)<-[:PRICE_FLIGHT]-(airportStop2:Airport)  
+WITH airports, reduce(totalCost=0, rel IN relationships(airports)|totalCost + rel.price) as cost 
+WHERE airportStop<>airportStop2
+RETURN airports, cost 
+ORDER BY cost LIMIT 1

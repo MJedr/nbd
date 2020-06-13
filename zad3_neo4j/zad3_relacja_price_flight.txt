@@ -1,0 +1,11 @@
+MATCH (airportStart:Airport)<-[:ORIGIN]-(flight:Flight)-[:DESTINATION]->(airportStop:Airport), (flight)<-[:ASSIGN]-(ticket:Ticket)
+WITH airportStart, airportStop, flight, ticket.price as priceTicket
+MATCH (flight)<-[:ASSIGN]-(flightTicket:Ticket {price: priceTicket})
+WITH airportStart, airportStop, flight, flightTicket
+CREATE (airportStart)-[priceFlight:PRICE_FLIGHT {price: flightTicket.price,
+                                                 class:flightTicket.class, 
+                                                 airline: flight.airline, 
+                                                 duration: flight.duration, 
+                                                 date: flight.date, 
+                                                 distance: flight.distance}]->(airportStop)
+RETURN priceFlight;
